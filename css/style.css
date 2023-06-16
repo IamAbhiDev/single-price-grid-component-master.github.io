@@ -45,6 +45,7 @@ body {
 .container {
     margin: 2rem;
     border-radius: .4rem;
+    box-shadow: 4px 2px 30px -10px var(--grayish-blue);
     overflow: hidden;
 }
 
@@ -68,7 +69,7 @@ body {
     color: var(--grayish-blue);
     font-size: .875rem;
     margin-top: 1.2rem;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .container__subscription {

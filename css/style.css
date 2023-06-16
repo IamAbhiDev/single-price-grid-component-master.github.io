@@ -39,3 +39,34 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*Components*/
+
+.container {
+    margin: 2rem;
+    border-radius: .4rem;
+    overflow: hidden;
+}
+
+.container__header {
+    background: white;
+    padding: 1.7rem 1.25rem;
+}
+
+.container__header__heading {
+    color: var(--cyan);
+    font-size: 1.3rem;
+}
+
+.container__header__sub-heading {
+    color: var(--bright-yellow);
+    font-size: 1rem;
+    margin-top: 1.4rem;
+}
+
+.container__header__text {
+    color: var(--grayish-blue);
+    font-size: .875rem;
+    margin-top: 1.2rem;
+    line-height: 1.6;
+}

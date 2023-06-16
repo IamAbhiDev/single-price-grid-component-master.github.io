@@ -125,3 +125,36 @@ body {
     line-height: 1.4;
     margin-top: 1.2rem;
 }
+
+@media screen and (min-width: 56.25rem) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 38rem;
+    }
+
+    .container__header {
+        grid-column: span 2;
+        padding: 2.4rem;
+    }
+
+    .container__header__heading {
+        font-size: 1.5rem;
+    }
+
+    .container__header__sub-heading {
+        font-size: 1.2rem;
+    }
+
+    .container__header__text {
+        font-size: .9375rem;
+    }
+
+    .container__subscription {
+        padding: 2.2rem;
+    }
+
+    .container__about {
+        padding: 2.2rem;
+    }
+}

@@ -70,3 +70,56 @@ body {
     margin-top: 1.2rem;
     line-height: 1.6;
 }
+
+.container__subscription {
+    background: var(--cyan);
+    color: white;
+    padding: 1.4rem;
+}
+
+.container__subscription__price {
+    font-size: 2rem;
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.container__subscription__price-text {
+    color: var(--light-gray);
+    color: hsla(203, 44%, 93%, 0.65);
+    font-size: 1rem;
+    font-weight: var(--light);
+    margin-left: .8rem;
+}
+
+.container__subscription__description {
+    color: var(--light-gray);
+    margin-top: .5rem;
+}
+
+.container__subscription__btn {
+    background: var(--bright-yellow);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    border-radius: .4rem;
+    box-shadow: 2px 8px 32px -8px rgba(0, 0, 0, 0.35);
+    display: inline-block;
+    padding: .8rem 4rem;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+}
+
+.container__about {
+    background: #4abebd;
+    color: white;
+    padding: 1.4rem;
+}
+
+.container__about__text {
+    color: hsla(203, 44%, 93%, 0.8);
+    font-size: .9375rem;
+    line-height: 1.4;
+    margin-top: 1.2rem;
+}

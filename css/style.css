@@ -28,3 +28,14 @@
     --light: 400;
     --bold: 700;
 }
+
+/*Basic Styles*/
+
+body {
+    background: var(--light-gray);
+    font-family: 'Karla', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

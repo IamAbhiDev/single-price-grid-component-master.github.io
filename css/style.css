@@ -43,10 +43,11 @@ body {
 /*Components*/
 
 .container {
-    margin: 2rem;
+    max-width: 330px;
     border-radius: .4rem;
     box-shadow: 4px 2px 30px -10px var(--grayish-blue);
     overflow: hidden;
+    margin: 2rem;
 }
 
 .container__header {
